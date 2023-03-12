@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23010112%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2294%22>🐧</text></svg>" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="section1.css" />
+    <link rel="stylesheet" href="section2.css" />
+    <link rel="stylesheet" href="section3.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="contenedor-nav">
+        <a class="titulo" href="#">PORTAFOLIO</a>
+        <ul class="menu-principal" id="menu-principal">
+          <li class="item"><a href="#capa1">Inicio</a></li>
+          <li class="item">
+            <a href="#capa2">Sobre mi</a>
+            <ul class="sub-menu" id="sub-menu">
+              <li class="sub-item" id="sub-item">
+                <a href="#capa2">Conocimientos</a>
+              </li>
+              <li class="sub-item" id="sub-item">
+                <a href="#capa3">Proyectos</a>
+              </li>
+              <li class="sub-item" id="sub-item">
+                <a href="#capa4">About me</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item" id="item">
+            <a href="#capa4">Contacto</a>
+            <ul class="sub-menu" id="sub-menu">
+              <li class="sub-item" id="sub-item">
+                <a
+                  href="https://www.facebook.com/marcoisraelcalderongarcia/"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li class="sub-item" id="sub-item">
+                <a
+                  href="https://www.instagram.com/marquitocalderon/"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li class="sub-item" id="sub-item">
+                <a href="https://wa.me/51950566962/" target="_blank"
+                  >WhatsApp</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="btn"
+          id="boton1"
+          onclick="window.open('https://github.com/marquitocalderon')"
+        >
+          <strong>Github</strong>
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>
+
+          <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </button>
+        <!-- EL SIMBOLO DEL MENU ESTA IMPORTADO DE UN PAGINA BOXICONS -->
+        <i class="bx bx-menu" id="boton-menu"></i>
+      </nav>
+    </header>
+
+    <section id="capa1">
+      <div class="contenedor">
+        <div class="textos">
+          <div class="titulo1">
+            <h2 class="hola">Hola Soy</h2>
+          </div>
+          <div>
+            <span class="typed"></span>
+          </div>
+          <span class="typed"></span>
+          <p class="parrafo-capa1">
+            Soy Estudiante de Ingenieria de Sistemas e Informatica de la
+            Universidad Nacional de San Martin Tarapoto - Peru
+          </p>
+          <div class="botones-capa1">
+            <button
+              class="boton-capa1"
+              id="boton2-capa1"
+              onclick="redirectToPage()"
+            >
+              LEER MAS
+            </button>
+            <button
+              class="boton-capa1"
+              id="boton2-capa1"
+              onclick="window.open('https://www.pagina-web.com', '_blank')"
+            >
+              DESCARGAR CV
+            </button>
+          </div>
+        </div>
+
+        <div class="perfil">
+          <img src="img/yo.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="capa2">
+      <div class="contenedor-capa2">
+        <div class="parte1">
+          <div class="container">
+            <div class="box">
+              <div>
+                <video
+                  src="img/loading.mp4"
+                  autoplay
+                  playinline
+                  loop
+                  muted
+                  preload="auto"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="parte2">
+          <div class="textos-capa2">
+            <h2 class="titulo-capa2">CONOCIMIENTOS</h2>
+            <p class="parrafo-capa2">
+              Durante mi camino por la programacion actualmente dominos estas
+              tecnologias:
+            </p>
+          </div>
+          <div class="cartas">
+            <div class="card">
+              <i id="html" class="bx bxl-html5"></i>
+            </div>
+            <div class="card">
+              <i id="css" class="bx bxl-css3"></i>
+            </div>
+            <div class="card">
+              <i id="javascrypt" class="bx bxl-javascript"></i>
+            </div>
+            <div class="card">
+              <i id="java" class="bx bxl-java"></i>
+            </div>
+            <div class="card">
+              <i id="pos" class="bx bxl-postgresql"></i>
+            </div>
+            <div class="card">
+              <i id="react" class="bx bxl-react"></i>
+            </div>
+            <div class="card">
+              <i id="node" class="bx bxl-nodejs"></i>
+            </div>
+            <div class="card">
+              <i id="py" class="bx bxl-python"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="capa3">
+      <div class="contenedor-capa3">
+        <div class="proyectos">
+          <h2 class="titulo-capa3">PROYECTOS</h2>
+        </div>
+        <div class="contenedor-cards">
+          <div class="card1">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <i id="javamodel" class="bx bxl-java"></i>
+                  <strong>JAVA</strong>
+                </div>
+              </div>
+              <div class="front">
+                <div class="img">
+                  <a href="ruta/al/archivo/miarchivo.pdf" download
+                    ><img class="parqueadero" src="img/parqueadero.png" alt=""
+                  /></a>
+                </div>
+
+                <div class="front-content">
+                  <small class="badge">Parqueadero-Java</small>
+                  <div class="description">
+                    <div class="title">
+                      <p class="title">
+                        <strong>Parqueadero SQL</strong>
+                      </p>
+                      <a class="descargar" href=""
+                        ><i id="descargar" class="bx bxs-download"></i
+                      ></a>
+                    </div>
+                    <p class="card-footer">Marco &nbsp; | &nbsp; Calderon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <i id="javamodel1" class="bx bxl-java"></i>
+                  <strong>JAVA</strong>
+                </div>
+              </div>
+              <div class="front">
+                <div class="img">
+                  <a href="ruta/al/archivo/miarchivo.pdf" download
+                    ><img
+                      class="calculadorajava"
+                      src="img/calculadoramuestral.png"
+                      alt=""
+                  /></a>
+                </div>
+
+                <div class="front-content">
+                  <small class="badge">Calculadora-Muestral</small>
+                  <div class="description">
+                    <div class="title">
+                      <p class="title">
+                        <strong>Calculadora Java</strong>
+                      </p>
+                      <a class="descargar" href=""
+                        ><i id="descargar" class="bx bxs-download"></i
+                      ></a>
+                    </div>
+                    <p class="card-footer">Marco &nbsp; | &nbsp; Calderon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card3">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <i id="javascrypt1" class="bx bxl-javascript"></i>
+                  <strong>JAVASCRYPT</strong>
+                </div>
+              </div>
+              <div class="front">
+                <div class="img">
+                  <a href="ruta/al/archivo/miarchivo.pdf" download
+                    ><img
+                      class="calculadorajavas"
+                      src="img/calculadorajavascr.png"
+                      alt=""
+                  /></a>
+                </div>
+
+                <div class="front-content">
+                  <small class="badge">Calculadora-WEB</small>
+                  <div class="description">
+                    <div class="title">
+                      <p class="title">
+                        <strong>Calculadora JavaScrypt</strong>
+                      </p>
+                      <a
+                        class="descargar"
+                        href="https://github.com/marquitocalderon/CalculadoraDeMuestraEstadistica"
+                        target="_blank"
+                        ><i id="descargar" class="bx bxs-download"></i
+                      ></a>
+                    </div>
+                    <p class="card-footer">Marco &nbsp; | &nbsp; Calderon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card4">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <i id="javamodel2" class="bx bxl-java"></i>
+                  <strong>JAVA</strong>
+                </div>
+              </div>
+              <div class="front">
+                <div class="img">
+                  <a href="#" download
+                    ><img class="ventas" src="img/ventas.jpg" alt=""
+                  /></a>
+                </div>
+
+                <div class="front-content">
+                  <small class="badge">Sistema Ventas-SQL</small>
+                  <div class="description">
+                    <div class="title">
+                      <p class="title">
+                        <strong>Sistema Ventas</strong>
+                      </p>
+                      <a class="descargar" href=""
+                        ><i id="descargar" class="bx bxs-download"></i
+                      ></a>
+                    </div>
+                    <p class="card-footer">Marco &nbsp; | &nbsp; Calderon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="capa4">
+      <div class="contenedor-4">
+        <div class="login-1">
+          <div class="card-client">
+            <div class="user-picture">
+              <img src="img/yo.jpg" alt="" />
+            </div>
+            <p class="name-client">
+              Marco Calderon
+              <span>Ing Sistemas e Informatica </span>
+            </p>
+            <div class="social-media">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                  ></path>
+                </svg>
+                <span class="tooltip-social">Twitter</span>
+              </a>
+              <a
+                href="https://www.instagram.com/marquitocalderon/"
+                target="_blank"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  ></path>
+                </svg>
+                <span class="tooltip-social">Instagram</span>
+              </a>
+              <a
+                href="https://www.facebook.com/marcoisraelcalderongarcia/"
+                target="_blank"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                  ></path>
+                </svg>
+                <span class="tooltip-social">Facebook</span>
+              </a>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                  ></path>
+                </svg>
+                <span class="tooltip-social">LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="login-box">
+          <form
+            action="https://formsubmit.co/markuscalderongarcia@gmail.com"
+            method="POST"
+            onsubmit="return confirm('¿Está seguro de que desea enviar este formulario?')"
+          >
+            <p class="about">CONTACTAME</p>
+            <div class="user-box">
+              <input type="text" name="nombre" required="" />
+              <label>Nombre</label>
+            </div>
+            <div class="user-box">
+              <input type="text" name="correo" required="" />
+              <label>Correo</label>
+            </div>
+            <div class="user-box">
+              <input type="text" name="direccion" required="" />
+              <label>Direccion</label>
+            </div>
+            <div class="user-box">
+              <input type="text" name="pais" required="" />
+              <label>Pais</label>
+            </div>
+            <div class="user-box">
+              <label class="mensaje" for="message">Mensaje :</label>
+              <textarea id="message" name="mensaje" required=""></textarea>
+            </div>
+
+            <center>
+              <button class="fot" type="submit">
+                <span>Enviar</span>
+                <div class="top"></div>
+                <div class="left"></div>
+                <div class="bottom"></div>
+                <div class="right"></div>
+              </button>
+            </center>
+            <input type="hidden" name="_next" value="https://marquitocalderon.github.io/Portafolio/">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="¡Nuevo envío!">
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="type.js"></script>
+    <script src="menu.js"></script>
+    <script src="jquery/jquery-3.6.3.js"></script>
+    <script src="paraefectomenu.js"></script>
+    <script>
+      var typed = new Typed(".typed", {
+        strings: [
+          "Marco Calderon",
+          "Programador",
+          "Estudiante",
+          "Ing Sistemas",
+        ],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true,
+        backDelay: 150,
+      });
+    </script>
+  </body>
+</html>
