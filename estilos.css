@@ -38,3 +38,36 @@
     height: 97vh;
     scroll-behavior: smooth;
   }
+
+  .fade-in-element {
+    opacity: 0; /* Configuramos la opacidad inicial a 0 para que el elemento esté invisible */
+    animation: fadeIn 1s ease-in-out forwards; /* Configuramos la animación */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-38px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+
+  .foto {
+    opacity: 0; /* Configuramos la opacidad inicial a 0 para que el elemento esté invisible */
+    animation: fadeIn2 1s ease-in-out forwards; /* Configuramos la animación */
+  }
+  
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+      transform: translateX(38px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
