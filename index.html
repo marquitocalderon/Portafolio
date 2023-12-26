@@ -1,67 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilos.css">
 
-  <style>
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
-    body {
-      background-color: white;
-      color: black;
-      font-family: 'Arial', sans-serif; /* Ajusta la fuente según tus preferencias */
-    }
-  </style>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
 </head>
-<body> 
-  <div class="grid grid-cols-4 gap-4 h-full">
 
-    <header class="card row-span-2 bg-gray-100">
-      <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 100vh; padding: 40px 0px 0px 0px;">
-        <h1 class="text-2xl">PORTAFOLIO</h1>
-      
-        <nav>
-            <ul class="flex flex-col gap-4">
-                <li><a class="menu" href="#inicio">Inicio</a></li>
-                <li><a class="menu"  href="#inicio">Acerca de mí</a></li>
-                <li><a class="menu" href="#inicio">Habilidades</a></li>
-                <li><a class="menu" href="#inicio">Proyectos</a></li>
-                <li><a  class="menu" href="#inicio">Contacto</a></li>
 
-            </ul>
-        </nav>
-        
-        <nav>
-            <ul class="grid grid-cols-4 gap-1">
-                <li class="col-span-1"><a class="icon-container" href="#inicio"><i class='bx bxl-facebook-circle'></i></a></li>
-                <li class="col-span-1"><a class="icon-container" href="#inicio"><i class='bx bxl-instagram' ></i></a></li>
-                <li class="col-span-1"><a class="icon-container" href="#inicio"><i class='bx bxl-linkedin' ></i></a></li>
-                <li class="col-span-1"><a class="icon-container"href="#inicio"><i class='bx bxl-github' ></i></a></li>
-                <li class="col-span-1"><a class="icon-container" href="#inicio"><i class='bx bxl-gmail' ></i></a></li>
-                <li class="col-span-1"><a class="icon-container" href="#inicio"><i class='bx bxl-tiktok'></i></a></li>
-                <li class="col-span-1"><a class="icon-container" href="#inicio"><i class='bx bxl-twitter' ></i></a></li>
-                <li class="col-span-1"><a class="icon-container" href="#inicio"><i class='bx bxl-whatsapp' ></i></a></li>
+<body>
+    <div class="grid grid-cols-4 gap-4 h-full">
 
-            </ul>
-        </nav>
+        <header class="card row-span-2 bg-gray-100">
+            <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 100vh; padding: 40px 0px 0px 0px;">
+                <h1 class="text-2xl">PORTAFOLIO</h1>
 
-      <div>
-        
-      </div>
-      </div>
-    </header>
-    <div class="card col-span-3 overflow-auto" id="segunda">
-     <section id="inicio">
+                <nav>
+                    <ul class="flex flex-col gap-4">
+                        <li><a class="menu" href="#inicio">Inicio</a></li>
+                        <li><a class="menu" href="#acerca">Acerca de mí</a></li>
+                        <li><a class="menu" href="#habilidades">Habilidades</a></li>
+                        <li><a class="menu" href="#proyectos">Proyectos</a></li>
+                        <li><a class="menu" href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
 
-     </section>
+                <nav>
+                    <ul class="grid grid-cols-4 gap-1">
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-facebook-circle'></i></a></li>
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-instagram'></i></a></li>
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-linkedin'></i></a></li>
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-github'></i></a></li>
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-gmail'></i></a></li>
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-tiktok'></i></a></li>
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-twitter'></i></a></li>
+                        <li class="col-span-1"><a class="icon-container" href="#inicio"><i
+                                    class='bx bxl-whatsapp'></i></a></li>
+                    </ul>
+                </nav>
+
+                <div>
+
+                </div>
+            </div>
+        </header>
+        <div class="content col-span-3 overflow-auto" id="segunda">
+            <section id="inicio">
+                <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+                    <div>
+                        Hola Soy MARCO ISRAEL
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="acerca">
+                <div
+                    style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+                    <div>
+                        Acerca
+                    </div>
+                    <img src="" alt="">
+                </div>
+            </section>
+        </div>
+
     </div>
 
-  </div>
 </body>
+
 </html>
